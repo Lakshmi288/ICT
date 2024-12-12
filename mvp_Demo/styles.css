@@ -1,0 +1,216 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #80b3ff; /* Lighter blue for the header */
+    padding: 20px 30px;
+    text-align: left;
+    position: relative;
+}
+
+header .logo {
+    width: 150px;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Top Section */
+.top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Buttons Section */
+.buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dashboard-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #80b3ff; /* Match header color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #66a3e0; /* Slightly darker shade for hover */
+}
+
+.bold-date {
+    font-weight: bold;
+}
+
+/* Middle Section (Assignment Tracker & Quiz) */
+.middle-section {
+    display: flex;
+    gap: 30px;
+}
+
+/* Assignment Tracker */
+.assignment-tracker {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.assignment-tracker h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#assignmentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#assignmentTable th, #assignmentTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#assignmentTable th {
+    background-color: #f1f1f1;
+}
+
+#assignmentTable td button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#assignmentTable td button:hover {
+    background-color: #e60000;
+}
+
+/* Editable Quiz */
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.quiz-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.quiz-question {
+    margin-bottom: 15px;
+}
+
+.quiz-question label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quiz-question input[type="text"],
+.quiz-question input[type="number"],
+.quiz-question select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.submit-button {
+    padding: 20px 40px; /* Larger button size */
+    font-size: 18px; /* Larger font size */
+    background-color: #80b3ff; /* Matching color with class timeline */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%; /* Align with Add Assignment button */
+}
+
+.submit-button:hover {
+    background-color: #66a3e0; /* Slightly darker shade for hover */
+}
+
+/* Buttons Section for Submit Quiz and Auto Correct */
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Buttons Section for Add Assignment and Remove All */
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.add-assignment, .remove-all {
+    padding: 20px 40px; /* Matching padding with Class Timeline */
+    font-size: 18px; /* Matching font size with Class Timeline */
+    background-color: #80b3ff; /* Matching color with header */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%; /* Ensure both buttons are aligned */
+}
+
+.add-assignment:hover, .remove-all:hover {
+    background-color: #66a3e0; /* Slightly darker shade for hover */
+}
+
+/* Bottom Section (Class Notes Upload) */
+.bottom-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #80b3ff; /* Lighter blue for the footer */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
